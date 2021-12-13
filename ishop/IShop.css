@@ -1,0 +1,36 @@
+.shop-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.shop-wrapper>.shop-name {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    width: max-content;
+}
+
+.shop-wrapper>.shop-items {
+    display: flex;
+    justify-content: center;
+}
+
+.shop-wrapper>.shop-items td {
+    padding: 0 40px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.shop-wrapper>.shop-items td:first-child {
+    padding: 0 0 0 40px;
+}
+
+.shop-wrapper>.shop-items td:last-child {
+    padding: 0 40px 0 0;
+}
